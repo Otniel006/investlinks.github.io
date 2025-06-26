@@ -9,7 +9,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Professional Business Solutions | InvestLink",
+  title: "InvestLinks",
   description:
     "Transform your business with InvestLink's innovative solutions and expert services. We deliver cutting-edge solutions that drive growth and create lasting value.",
   keywords: "business solutions, web development, digital marketing, consulting, innovation, InvestLink",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Professional Business Solutions | InvestLink",
+    title: "InvestLinks",
     description: "Transform your business with InvestLink's innovative solutions and expert services.",
     creator: "@investlink",
   },
@@ -52,7 +52,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/investlink.png" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
